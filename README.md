@@ -1,0 +1,2 @@
+# CodeChef_Jan19_challenge
+CODECHEF JANUARY 2019 CHALLENGE- DIV 2(&lt;1800) 
