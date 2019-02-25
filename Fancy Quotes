@@ -1,0 +1,21 @@
+//Chef was reading some quotes by great people.
+//Now, he is interested in classifying all the fancy quotes he knows.
+//He thinks that all fancy quotes which contain the word "not" are Real Fancy; 
+//quotes that do not contain it are regularly fancy.***
+
+n=int(input())
+for i in range(n):
+    str=' '+input()+' '
+    s=" not "
+    f=0
+    for j in str:
+        if j==s[f]:
+            f+=1
+        else:
+            f=0
+            continue
+        if f==5:
+            print("Real Fancy")
+            break
+    if(f!=5):
+        print("regularly fancy")
